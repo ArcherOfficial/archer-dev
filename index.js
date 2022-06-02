@@ -25,8 +25,8 @@ client.coc.login({
     password: process.env.CLASHDEV_PASSWORD 
 }).then(() => {
     console.log('[COC Client]:', 'Login to API ✅');
-}).catch(error => {
-    console.error('[COC Client]: Login failed!', error)
+}).catch((error) => {
+    console.error('[COC Client]: Login failed!', error);
 });
 
 // loaded all handlers
