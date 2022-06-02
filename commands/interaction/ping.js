@@ -5,6 +5,6 @@ module.exports = {
         await interaction.reply({ content: 'Pinging...', fetchReply: true });
         const now = await Date.now();
 
-        interaction.editReply({ content: `Pong!: **${now-interaction.createdTimestamp}** ms` });
+        interaction.editReply({ content: `Pong! **${now-interaction.createdTimestamp}** ms` });
     }
 };

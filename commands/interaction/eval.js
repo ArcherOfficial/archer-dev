@@ -30,7 +30,7 @@ module.exports = {
                 embed.setTitle("Error!")
                 embed.setColor("Red");
 
-            if (!interacrion.deferred) await interaction.reply({ embeds: [embed] });
+            if (!interaction.deferred) await interaction.reply({ embeds: [embed] });
             await interaction.editReply({ embeds: [embed] });
         };
     }
