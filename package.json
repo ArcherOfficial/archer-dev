@@ -1,0 +1,33 @@
+{
+    "name": "discordjs-bot",
+    "version": "1.0.0",
+    "description": "Discord.js bot v14",
+    "main": "index.js",
+    "dependencies": {
+        "@discordjs/rest": "^0.4.1",
+        "discord-api-types": "^0.33.0",
+        "discord.js": "^14.0.0-dev.1653480262-68d5169"
+    },
+    "scripts": {
+        "start": "node index.js"
+    },
+    "engines": {
+        "node": ">=16.9.x"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/DevinOfc/discord.js-bot.git"
+    },
+    "author": "Devin#3583",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/DevinOfc/discord.js-bot/issues"
+    },
+    "homepage": "https://github.com/DevinOfc/discord.js-bot#readme",
+    "keywords": [
+        "bot",
+        "discord",
+        "discordjs",
+        "discordjs-v14"
+    ]
+}
