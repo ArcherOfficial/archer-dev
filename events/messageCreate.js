@@ -5,8 +5,8 @@ module.exports = (client, message) => {
     const content = message.content.toLowerCase();
     if (!content.startsWith(prefix)) return;
 
-    message.contentArguments = message.content.slice(prefix.length).trim().split(/ +/g) || [];
-    const cmd = message.contentArguments.shift().toLowerCase();
+    message.arguments = message.content.slice(prefix.length).trim().split(/ +/g) || [];
+    const cmd = message.arguments.shift().toLowerCase();
     if (cmd.length == 0) return;
 
     const command = client.commands.get(cmd);
